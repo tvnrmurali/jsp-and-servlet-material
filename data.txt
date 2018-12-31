@@ -1,0 +1,13 @@
+ 
+template: `<div class='cc'>hi</div>
+<h1> welcome to my app</h1>
+<h1>hi user</h1>
+<div [style.color]="my color">super </div>
+<div [ngStyle]="my styles">great </div>
+<button (click)="Change Color()">click</button>
+<input type='text' class='bg'/>
+<input type='text' [ngStyle]="sty2"/>
+<input type='text' class="r"/>`,
+//templateUrl:`./app.component.html`,
+styles:['.r{color:blue}' 
+ 
